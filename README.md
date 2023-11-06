@@ -1,13 +1,5 @@
 # pymaceuticals-challenge
 
-Study details:
-- Sample: 249 mice with SCC tumours
-- Study groups: 
-    (A) Investigational (Capomulin) treatment group
-    (B) Other standard treatments
-- Methods: 45 days of observation, measurement of tumour volume
-- End points: tumour volume
-
 Task:
 
 Generate tables (data cleaning and sumary stats)
@@ -47,3 +39,13 @@ Generate figures (data visualisation)
     (5) Repeat above for 'the average mouse' treated with Capomulin
 
 Summary of study results
+
+This data is derived from a study of 249 mice with SCC tumours. There are a number of study groups, namely mice are either in the investigational (Capomulin) treatment group or randomised into a number of other standard treatments. There are a total of ten treatment groups. The primary endpoint that is being tested is tumour size.
+
+There were more more mice in the capomulin (230 mice) and Ramicaine (228 mice) compared to other drug regimens, which average 178 mice. There were 51% female and 49% male mice in the study.
+
+A comparison of tumour volume inin a subset of drug regimens found that capomulin and ramincane treated mice had a smaller median tumour volume at 38 and 36 respectively compared to infubinol and caftamin which had a larger median tumour volume of 60 (both). Out of all the medications ramicaine had the lowest median (36) and mean (36) tumour size and capomulin had similar results for its median (38) and mean (37).
+
+A comparison of mouse weight versus average tumour volume in the subset of mice treated with capomulin demonstrated that there was a strong correlation between mouse weight and tumour volume (r = 0.84). Clinical correlation is required to determine if the medication could cause weight loss and is a product of the treatment regimen. It would also be important to ensure that mice have been randomised into the treatment groups appropriately so that mouse size is not biasing the results.
+
+Overal the investigational product seems to be a effective in acheiving the primary endpoint of reducing tumour volume, with similar efficacy to ramicaine, and greater efficacy than all other trialed drug regimens.
